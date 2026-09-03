@@ -2374,8 +2374,7 @@ async def pending_proofs(update, context):
             f"🆔 #{row['id']} | "
             f"User: <code>{row['user_id']}</code>\n"
             f"🎯 {escape(row['title'])}\n"
-            f"👤 @{escape(row['username']) "
-            f"if row['username'] else 'none'}\n\n"
+            f"👤 @{escape(row['username']) if row['username'] else 'none'}\n\n"
         )
 
     await update.effective_message.reply_text(
