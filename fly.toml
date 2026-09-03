@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for primezy-earn-bot on 2026-09-03T10:48:32Z
+# fly.toml app configuration file generated for primezy-earn-bot-jjgiyq on 2026-09-03T12:34:32Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'primezy-earn-bot'
+app = 'primezy-earn-bot-jjgiyq'
 primary_region = 'cdg'
 
 [build]
